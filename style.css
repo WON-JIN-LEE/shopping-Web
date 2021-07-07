@@ -31,7 +31,7 @@ body {
   align-items: center;
 }
 
-.invisible {
+li.invisible {
   display: none;
 }
 
