@@ -23,18 +23,10 @@ function createHTMLString(item) {
     `;
 }
 
-// Make the items matching {key: value} invisible.
-function updateItems(items, key, value) {
-    items.forEach(item => {
-        if (item.dataset[key] === value) {
-            item.classList.remove('invisible');
-        } else {
-            item.classList.add('invisible');
-        }
-    });
-}
+
 
 function onButtonClick(event, items) {
+    console.log(event);
     const target = event.target;
     const key = target.dataset.key;
     const value = target.dataset.value;
@@ -42,9 +34,7 @@ function onButtonClick(event, items) {
     if (key == null || value == null) {
         return;
     }
-    updateItems(items, key, value);
-
-    // displayItems(items.filter(item => item[key] === value));
+    displayItems(items.filter(item => item[key] === value));
 }
 
 function setEventListeners(items) {
