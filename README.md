@@ -11,15 +11,11 @@
 1. Button 클릭 시 List 필터링
 2. logo 클릭 시 All List 필터링
 
+### mini Shop Web [Click here](https://won-jin-lee.github.io/shopping-Web)
+
 ### Screen Shot
 
 |             |                before                 |                 after                  |
 | :---------: | :-----------------------------------: | :------------------------------------: |
 | ColorFilter | ![image description](img/AllList.png) | ![image description](img/PinkList.png) |
 | TypeFilter  | ![image description](img/AllList.png) | ![image description](img/typeList.png) |
-
----
-
-### mini Shop Link
-
-Click [here](https://won-jin-lee.github.io/shopping-Web)
